@@ -1,0 +1,78 @@
+{
+  "boards": [
+    {
+      "name": "Testing Board",
+      "isActive" : true,
+      "columns": [
+        {
+          "name": "Todo",
+          "tasks": [
+            {
+              "title": "Todo A Task",
+              "description": "",
+              "status": "Todo",
+              "subtasks": [
+                {
+                  "title": "Todo Subtask 1",
+                  "isCompleted": true
+                },
+                {
+                  "title": "Todo Subtask 2",
+                  "isCompleted": true
+                },
+                {
+                  "title": "Todo Subtask 3",
+                  "isCompleted": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Doing",
+          "tasks": [
+            {
+              "title": "Doing A Task",
+              "description": "",
+              "status": "Doing",
+              "subtasks": [
+                {
+                  "title": "Doing Subtask 1",
+                  "isCompleted": true
+                },
+                {
+                  "title": "Doing Subtask 2",
+                  "isCompleted": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Done",
+          "tasks": [
+            {
+              "title": "Done A Task",
+              "description": "",
+              "status": "Done",
+              "subtasks": [
+                {
+                  "title": "Done Subtask 1",
+                  "isCompleted": true
+                },
+                {
+                  "title": "Done Subtask 2",
+                  "isCompleted": false
+                },
+                {
+                  "title": "Done Subtask 3",
+                  "isCompleted": false
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
